@@ -1,7 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            background-color: #09090b; /* Dark zinc background */
+            color: #f4f4f5; /* Light text */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .container {
+            max-width: 450px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+        p {
+            color: #a1a1aa; /* Zinc mute gray */
+            font-size: 0.95rem;
+            margin-bottom: 32px;
+        }
+        .links-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .link-card {
+            background-color: #18181b; /* Dark card background */
+            border: 1px solid #27272a; /* Card border */
+            color: #FFE600; /* Yellow accent text to match your portfolio */
+            padding: 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s ease-index;
+        }
+        .link-card:hover {
+            background-color: #27272a;
+            border-color: #3f3f46;
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>i  have nothing to put here yet</p>
+
+    <div class="container">
+        <h1>I'll sort this page out after</h1>
+        <p>here are the other links:</p>
+
+        <div class="links-list">
+            <!-- Replace these links and text with your actual targets -->
+            <a href="https://store.studiopufftopia.com" class="link-card">store</a>
+            <a href="https://editing.studiopufftopia.com" class="link-card">editing</a>
+            <a href="https://pay.studiopufftopia.com" class="link-card">payments</a>
+        </div>
+    </div>
+
 </body>
 </html>
